@@ -1,1 +1,21 @@
-
+INSERT INTO books(title, author, genre, publication_year, price, stock, rating, language) VALUES
+('The Hobbit', 'J.R.R. Tolkien', 'Fantasy', 1937, 18.50, 4, 4.8, 'English'),
+('Harry Potter and the Philosopher''s Stone', 'J.K. Rowling', 'Fantasy', 1997, 22.00, 8, 4.7, 'English'),
+('Dune', 'Frank Herbert', 'Science Fiction', 1965, 25.50, 3, 4.6, 'English'),
+('The Martian', 'Andy Weir', 'Science Fiction', 2011, 16.75, 6, 4.5, 'English'),
+('The Silent Patient', 'Alex Michaelides', 'Thriller', 2019, 19.99, 5, 4.3, 'English'),
+('It', 'Stephen King', 'Horror', 1986, 21.50, 0, 4.4, 'English'),
+('The Alchemist', 'Paulo Coelho', 'Drama', 1988, 14.00, 10, 4.2, 'Portuguese'),
+('The Great Gatsby', 'F. Scott Fitzgerald', 'Classic', 1925, 12.50, 7, 4.1, 'English'),
+('The Midnight Library', 'Matt Haig', 'Fantasy', 2020, 20.00, 5, 4.4, 'English'),
+('Project Hail Mary', 'Andy Weir', 'Science Fiction', 2021, 27.50, 9, 4.8, 'English'),
+('The Name of the Wind', 'Patrick Rothfuss', 'Fantasy', 2007, 24.00, 2, 4.6, 'English'),
+('The Book Thief', 'Markus Zusak', 'Historical', 2005, 17.25, 4, 4.5, 'English'),
+('Norwegian Wood', 'Haruki Murakami', 'Romance', 1987, 15.50, 6, 4.0, 'Japanese'),
+('The Road', 'Cormac McCarthy', 'Drama', 2006, 13.75, 0, NULL, 'English'),
+('Klara and the Sun', 'Kazuo Ishiguro', 'Science Fiction', 2021, 23.50, 3, NULL, 'English'),
+('The Shadow of the Wind', 'Carlos Ruiz Zafón', 'Mystery', 2001, 18.25, 5, 4.6, 'Spanish'),
+('A Man Called Ove', 'Fredrik Backman', 'Drama', 2012, 16.00, 4, 4.3, 'Swedish'),
+('The Paris Apartment', 'Lucy Foley', 'Mystery', 2022, 26.00, 0, NULL, 'English'),
+('The Hunger Games', 'Suzanne Collins', 'Science Fiction', 2008, 19.50, 8, 4.5, 'English'),
+('The Book of Joy', 'Dalai Lama', 'Non-Fiction', 2016, 29.00, 2, 4.1, 'English');
